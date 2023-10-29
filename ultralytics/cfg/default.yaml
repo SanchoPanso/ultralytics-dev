@@ -114,3 +114,9 @@ cfg:  # (str, optional) for overriding defaults.yaml
 
 # Tracker settings ------------------------------------------------------------------------------------------------------
 tracker: botsort.yaml  # (str) tracker type, choices=[botsort.yaml, bytetrack.yaml]
+
+# Custom settings -------------------------------------------------------------------------------------------------------
+mask_cutmix: 0.5
+mask_cutmix_crop_dir: 'D:\datasets\geo_ai\garbage\crops_29102023'
+mask_cutmix_crop_class_names: ['household_garbage']
+mask_cutmix_class_names: ['household_garbage']
